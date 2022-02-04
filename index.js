@@ -717,7 +717,7 @@
         case "gpr-format-pma-text-box":
           gpFormatPmaRemoveStyle();
           break;
-        case "gpr-format-pma-text-box1":
+        case "gpr-format-pma-text1-box":
           gpFormatPmaRemoveStyle();
           break;
         // monitoring section
