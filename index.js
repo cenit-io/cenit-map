@@ -415,6 +415,9 @@
         case "gpr-governance-box":
           gprGovernanceBoxApplyStyle();
           break;
+        case "gpr-governance-box1":
+          gprGovernanceBoxApplyStyle();
+          break;
         case "gpr-governance-text-box":
           gprGovernanceBoxApplyStyle();
           break;
@@ -443,28 +446,91 @@
         case "gpr-core-box":
           gprCoreBoxApplyStyle();
           break;
+        case "gpr-core-box1":
+          gprCoreBoxApplyStyle();
+          break;
+        case "gpr-core-box2":
+          gprCoreBoxApplyStyle();
+          break;
+        case "gpr-core-text-box":
+          gprCoreBoxApplyStyle();
+          break;
         // flow section
         case "gpr-flow-box":
+          gprFlowBoxApplyStyle();
+          break;
+        case "gpr-flow-box1":
+          gprFlowBoxApplyStyle();
+          break;
+        case "gpr-flow-box2":
+          gprFlowBoxApplyStyle();
+          break;
+        case "gpr-flow-text-box":
           gprFlowBoxApplyStyle();
           break;
         // pic section
         case "gpr-pic-box":
           gprPicBoxApplyStyle();
           break;
+        case "gpr-pic-box1":
+          gprPicBoxApplyStyle();
+          break;
+        case "gpr-pic-text-box":
+          gprPicBoxApplyStyle();
+          break;
         // format-pma section
         case "gpr-format-pma-box":
+          gprFormatPmaBoxApplyStyle();
+          break;
+        case "gpr-format-pma-box1":
+          gprFormatPmaBoxApplyStyle();
+          break;
+        case "gpr-format-pma-box2":
+          gprFormatPmaBoxApplyStyle();
+          break;
+        case "gpr-format-pma-text-box":
+          gprFormatPmaBoxApplyStyle();
+          break;
+        case "gpr-format-pma-text1-box":
           gprFormatPmaBoxApplyStyle();
           break;
         // monitoring section
         case "gpr-monitoring-box":
           gprMonitoringBoxApplyStyle();
           break;
+        case "gpr-monitoring-box1":
+          gprMonitoringBoxApplyStyle();
+          break;
+        case "gpr-monitoring-box2":
+          gprMonitoringBoxApplyStyle();
+          break;
+        case "gpr-monitoring-text-box":
+          gprMonitoringBoxApplyStyle();
+          break;
         // operation section
         case "gpr-operation-box":
           gprOperationBoxApplyStyle();
           break;
+        case "gpr-operation-box1":
+          gprOperationBoxApplyStyle();
+          break;
+        case "gpr-operation-box2":
+          gprOperationBoxApplyStyle();
+          break;
+        case "gpr-operation-text-box":
+          gprOperationBoxApplyStyle();
+          break;
+        case "gpr-operation-text-box1":
+          gprOperationBoxApplyStyle();
+          break;
         // extensions section
         case "gpr-extensions-box":
+          gprExtensionsBoxApplyStyle();
+          break;
+        case "gpr-extensions-box1":
+          gprExtensionsBoxApplyStyle();
+          break;
+        case "gpr-extensions-box2":
           gprExtensionsBoxApplyStyle();
           break;
         case "gpr-extensions-text-box":
@@ -488,8 +554,23 @@
         case "gpr-integrations-box":
           gprIntegrationsBoxApplyStyle();
           break;
+        case "gpr-integrations-box1":
+          gprIntegrationsBoxApplyStyle();
+          break;
+        case "gpr-integrations-text-box":
+          gprIntegrationsBoxApplyStyle();
+          break;
         // deploy section
         case "gpr-deploy-box":
+          gprDeployBoxApplyStyle();
+          break;
+        case "gpr-deploy-box1":
+          gprDeployBoxApplyStyle();
+          break;
+        case "gpr-deploy-box2":
+          gprDeployBoxApplyStyle();
+          break;
+        case "gpr-deploy-text-box":
           gprDeployBoxApplyStyle();
           break;
         default:
@@ -560,6 +641,9 @@
         case "gpr-governance-box":
           gprGovernanceBoxRemoveStyle();
           break;
+        case "gpr-governance-box1":
+          gprGovernanceBoxRemoveStyle();
+          break;
         case "gpr-governance-text-box":
           gprGovernanceBoxRemoveStyle();
           break;
@@ -588,28 +672,91 @@
         case "gpr-core-box":
           gprCoreBoxRemoveStyle();
           break;
+        case "gpr-core-box1":
+          gprCoreBoxRemoveStyle();
+          break;
+        case "gpr-core-box2":
+          gprCoreBoxRemoveStyle();
+          break;
+        case "gpr-core-text-box":
+          gprCoreBoxRemoveStyle();
+          break;
         // flow section
         case "gpr-flow-box":
+          gprFlowBoxRemoveStyle();
+          break;
+        case "gpr-flow-box1":
+          gprFlowBoxRemoveStyle();
+          break;
+        case "gpr-flow-box2":
+          gprFlowBoxRemoveStyle();
+          break;
+        case "gpr-flow-text-box":
           gprFlowBoxRemoveStyle();
           break;
         // pic section
         case "gpr-pic-box":
           gprPicBoxRemoveStyle();
           break;
+        case "gpr-pic-box1":
+          gprPicBoxRemoveStyle();
+          break;
+        case "gpr-pic-text-box":
+          gprPicBoxRemoveStyle();
+          break;
         // format-pma section
         case "gpr-format-pma-box":
+          gpFormatPmaRemoveStyle();
+          break;
+        case "gpr-format-pma-box1":
+          gpFormatPmaRemoveStyle();
+          break;
+        case "gpr-format-pma-box2":
+          gpFormatPmaRemoveStyle();
+          break;
+        case "gpr-format-pma-text-box":
+          gpFormatPmaRemoveStyle();
+          break;
+        case "gpr-format-pma-text-box1":
           gpFormatPmaRemoveStyle();
           break;
         // monitoring section
         case "gpr-monitoring-box":
           gpMonitoringRemoveStyle();
           break;
+        case "gpr-monitoring-box1":
+          gpMonitoringRemoveStyle();
+          break;
+        case "gpr-monitoring-box2":
+          gpMonitoringRemoveStyle();
+          break;
+        case "gpr-monitoring-text-box":
+          gpMonitoringRemoveStyle();
+          break;
         // operation section
         case "gpr-operation-box":
           gpOperationRemoveStyle();
           break;
+        case "gpr-operation-box1":
+          gpOperationRemoveStyle();
+          break;
+        case "gpr-operation-box2":
+          gpOperationRemoveStyle();
+          break;
+        case "gpr-operation-text-box":
+          gpOperationRemoveStyle();
+          break;
+        case "gpr-operation-text-box1":
+          gpOperationRemoveStyle();
+          break;
         // extensions section
         case "gpr-extensions-box":
+          gprExtensionsBoxRemoveStyle();
+          break;
+        case "gpr-extensions-box1":
+          gprExtensionsBoxRemoveStyle();
+          break;
+        case "gpr-extensions-box2":
           gprExtensionsBoxRemoveStyle();
           break;
         case "gpr-extensions-text-box":
@@ -633,8 +780,23 @@
         case "gpr-integrations-box":
           gpIntegrationsRemoveStyle();
           break;
+        case "gpr-integrations-box1":
+          gpIntegrationsRemoveStyle();
+          break;
+        case "gpr-integrations-text-box":
+          gpIntegrationsRemoveStyle();
+          break;
         // deploy section
         case "gpr-deploy-box":
+          gpDeployRemoveStyle();
+          break;
+        case "gpr-deploy-box1":
+          gpDeployRemoveStyle();
+          break;
+        case "gpr-deploy-box2":
+          gpDeployRemoveStyle();
+          break;
+        case "gpr-deploy-text-box":
           gpDeployRemoveStyle();
           break;
         default:
